@@ -1,0 +1,11 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(123deg, rgba(44, 76, 125, 1) 0%, rgba(67, 48, 155, 1) 47%, rgba(114, 33, 137, 1) 99%);
+}
+ 
+.contentj{
+    @media (max-width < 390px) {
+        width: 200px;
+    }
+}
